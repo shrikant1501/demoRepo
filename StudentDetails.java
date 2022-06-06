@@ -5,7 +5,7 @@ class StudentDetails
 	   int roll_no;
 	   String name, cl;
 
-	void input() 
+	void input() //creating a function to take student details 
 	{
 
 	Scanner sc = new Scanner(System.in);  
@@ -26,7 +26,7 @@ class StudentDetails
 class Student extends StudentDetails 
 {
 
-	void display() 
+	void display()  //method to display student details 
 	{
 		System.out.println("/******* Student details printed ********/");
 		System.out.println("Roll Number is: "+roll_no);
